@@ -31,12 +31,15 @@
 * Localhost / 127.0.0.1(IPv4) / ::1(IPv6)
 
   * 컴퓨터 스스로를 의미하는 가상 IP.  
+  
+    
 * loopback(신호 또는 데이터가 지나온 경로로 되돌아가는 것) 호스트명
+
   * 네트워크가 연결 유무에 상관없이 작동한다. (내부 소프트웨어 처리)
-* 자기 자신과 통신할 수 있기 때문에 주로 테스트용으로 사용된다.
+  * 자기 자신과 통신할 수 있기 때문에 주로 테스트용으로 사용된다.
+
   
-  
-  
+
   
 
 
@@ -46,7 +49,7 @@
 
 1. PEM 준비
 
-   ![pem](C:\Users\user\Desktop/pem.png)
+   ![pem](images/pem.png)
 
    
 
@@ -56,7 +59,7 @@
 
 3. 세션창에서 '새로 만들기' 선택
 
-   <img src="C:\Users\user\Desktop/win.png" alt="win" style="zoom:70%;" />
+   <img src="images/win.png" alt="win" style="zoom:70%;" />
 
    
 

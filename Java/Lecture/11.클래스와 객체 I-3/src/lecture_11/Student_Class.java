@@ -7,6 +7,17 @@ public class Student_Class {
 	int grade ;
 	String address ;
 	
+	
+	/*
+			public Student_Class() {}
+	
+	public Student_Class(int id, String name) { // 생성자에 id와 name 입력받음
+		studentID = id ;                        // 해당
+		studentName = name ;
+	} 
+	*/
+	
+	
 	public void show_Student_Info() {                    // 클래스 메소드
 		System.out.println(studentName+" : "+address) ;
 		
@@ -29,6 +40,9 @@ public class Student_Class {
 		
 	student_Lee.show_Student_Info() ;
 	student_Kim.show_Student_Info() ;     
+	
+	System.out.println(student_Lee) ;  // lecture_11.Student_Class@2ff4acd0  
+	System.out.println(student_Kim) ;  // 클래스 풀네임 + @ + 주소 값((16진수 4바이트)*2개 =32비트 )
 		                                  
 	} 
 

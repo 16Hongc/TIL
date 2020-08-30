@@ -10,7 +10,7 @@ class BirthDay {   // public, private 지정 안하면 패키지 내부에서 볼 수 있음. 디
 	public int getDay() {
 		return day;
 	}
-	public void setDay(int day) {
+	public void setDay(int day) {     // set이 없다면 읽을 수는 있어도 수정할 수는 없게 됨.
 		if(month == 2) {
 			if( day < 1 || day > 28 ) {
 				System.out.println("날짜 오류") ;

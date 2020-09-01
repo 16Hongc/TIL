@@ -19,7 +19,7 @@
 
     > **<추천 에디터>** 
     >
-    > 
+    > ---
     >
     > **아톰** ( Atom, https://atom.io/ )
     >
@@ -29,7 +29,7 @@
     >
     >  : 다양한 프로그래밍 언어의 편집이 가능.
     >
-    > 
+    > ---
     >
     > **브랫킷** ( Brackets, http://brackets.io/ )
     >
@@ -37,7 +37,7 @@
     >
     >  : Javascript로 개발되었으며, 프론트엔트 웹 개발에 특화됨.
     >
-    > 
+    > ---
     >
     > **비주얼 스튜디오 코드** ( Visual Studio Code, https://code.visualstudio.com/ )
     >

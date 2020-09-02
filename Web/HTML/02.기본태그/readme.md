@@ -1,6 +1,6 @@
 ## HTML 기본태그
 
-* [참고 사이트 ( https://www.w3schools.com/ )]( https://www.w3schools.com/ )
+* [참고 사이트 w3schools ]( https://www.w3schools.com/ )
 * 정리
 
 <img src="images/image-20200902004733025.png" alt="image-20200902004733025" style="zoom:80%;" />

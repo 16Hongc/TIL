@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Web Study Note</title>
+        
+        <style>
+            .container {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                z-index: 1;
+            }
+            
+            .container::after { 
+                width: 100%;
+                height: 100%;
+                content: "";
+                background:url("images/sei-kakinoki-Tkzy4US_AtE-unsplash.jpg") no-repeat center center fixed; 
+                background-size: cover;
+                position: absolute; 
+                top: 0;
+                left: 0;
+                z-index: -1;
+                opacity:0.3;
+            }
+            
+            table {
+                margin-left:5%;
+                border-top:1px solid black;
+                border-bottom:1px solid black;
+                border-collapse: collapse;
+                padding: 5px;
+            }
+            tr {
+                text-align:center;
+                border-top:1px solid black;
+            }
+        </style>
+    </head>
+    
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+    
+    
+    
+    <body>
+        <div class="container">
+            
+            <div>
+                <br>
+                <h2 style="color:floralwhite;padding:5px;" align="center">HTML Basic</h2> 
+            </div>
+            
+            <div>
+                <hr width="100%">
+                
+                <ul style="margin:20px;">
+                    
+                    <li><button style="width:20%;margin-bottom:2px;" onClick="window.open('https://www.w3.org/TR/html51/')">W3C</button> : HTML 공식 설명서 </li>
+                    <li><button style="width:20%;margin-bottom:2px;" onClick="window.open('https://www.w3schools.com/')">W3Schools</button> : 학습 사이트 1 </li>
+                    <li><button style="width:20%;margin-bottom:2px;" onClick="window.open('https://www.opentutorials.org/')">Open Tutorials</button> : 학습 사이트 2 </li>
+                    <li><button style="width:20%;margin-bottom:2px;" onClick="window.open('https://www.advancedwebranking.com/html/')">Advanced Web Ranking</button> : 태그 사용빈도 통계 (참조)</li>
+                    <li><button style="width:20%;" onClick="window.open('https://unsplash.com/')">Unsplash</button> : 무료 이미지 (참조)</li>
+                    
+                </ul>
+                    
+                <ul style="margin:20px;">    
+                    
+                    <li>Ctrl + Click으로 여러줄을 함께 선택해 수정할 수 있다!</li>
+                    
+                </ul>
+                
+                <hr width="100%">
+                <br>
+            </div>
+            
+            <div>
+                <table>
+                    <caption style="margin-bottom:10px;"> 자주 쓰는 태그 </caption>
+                    <th> 번호 </th>
+                    <th> 태그 </th>
+                    <th> 설명 </th>
+                    <th> 결과 </th>
+                    
+                    <tr>
+                        <td>1</td>
+                        <td> <xmp> <!-- --> </xmp></td>
+                        <td> 주석 ( Ctrl + / ) </td>
+                        <td> <!-- 안보이지롱 --> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2</td>
+                        <td> <xmp> <h1~6> </h1~6> </xmp> </td>
+                        <td> 제목 </td>
+                        <td> <h2>오오</h2> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>3</td>
+                        <td> <xmp> <strong> </strong> </xmp> </td>
+                        <td> 볼드체(강조) </td>
+                        <td> <strong>강아지는 강해</strong> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>4</td>
+                        <td> <xmp> <u> </u> </xmp> </td>
+                        <td> 언더라인(밑줄) </td>
+                        <td> <u>강아지는 중요하지</u> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>5</td>
+                        <td> <xmp> <del> </del> </xmp> </td>
+                        <td> 삭제 </td>
+                        <td> <del>고양이는 제거했다</del> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>6</td>
+                        <td> <xmp> <sup> </sup> </xmp> </td>
+                        <td> 위첨자 </td>
+                        <td> 강아지<sup>개강함</sup> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>7</td>
+                        <td> <xmp> <sub> </sub> </xmp> </td>
+                        <td> 아래첨자 </td>
+                        <td> 고양이<sub>고약함</sub> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>8</td>
+                        <td> <xmp> &nbsp; </xmp> </td>
+                        <td> 공백(space) </td>
+                        <td> 강아지&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;와 고양이 </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>9</td>
+                        <td> <xmp> &emsp; </xmp> </td>
+                        <td> 공백(tab) </td>
+                        <td> 강아지&emsp;&emsp;&emsp;&emsp;와 고양이 </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>10</td>
+                        <td> <xmp> align ="" </xmp> </td>
+                        <td> 정렬 </td>
+                        <td align ="right"> 당신 고양이입니까?&emsp; </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>11</td>
+                        <td> <xmp> <pre> </pre> </xmp> </td>
+                        <td> <xmp>서식있는 텍스트 (입력된 서식 유지)</xmp></td>
+                        <td> <pre>댕댕이는 여기        있어</pre></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>12</td>
+                        <td> <xmp> <xmp> </xmp> </xmp> </td>
+                        <td> &emsp;서식있는 텍스트 (모두 일반문자로 인식)&emsp; </td>
+                        <td> <xmp><strong>고양이</strong>는 나가<br>있어</xmp></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>13</td>
+                        <td> <xmp> <hr> </xmp> </td>
+                        <td> 수평선 </td>
+                        <td> <hr width="25%" size="3px" color="red"> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>14</td>
+                        <td> <xmp> <br> </xmp> </td>
+                        <td> 줄 바꿈 </td>
+                        <td> 강아지랑<br>고양이 있나요? </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>15</td>
+                        <td> <xmp><p> </p> </xmp></td>
+                        <td> 문단 바꿈 </td>
+                        <td> <p>강아지 있나요?</p><p>고양이만 있어요?</p> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>16</td>
+                        <td> <xmp> <a href=""> </a> </xmp> </td>
+                        <td> 하이퍼링크 </td>
+                        <td> <a href="https://namu.wiki/w/%EA%B3%A0%EC%96%91%EC%9D%B4" target="_blank" title="보러가자"><strong>고앵이</strong></a> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>17</td>
+                        <td> <xmp> <img src=""> </xmp> </td>
+                        <td> 이미지 삽입 </td>
+                        <td> <img src="images/russ-cuthrell-Vc1SLcyS66I-unsplash.jpg" style="width:250px;height:auto;" title="킹갓댕이"> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>18</td>
+                        <td> <xmp> <style> </style> </xmp> </td>
+                        <td> <xmp> CSS 사용 </xmp></td>
+                        <td> 결과 없음 </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>19</td>
+                        <td> <xmp> <script> </script> </xmp> </td>
+                        <td> 스크립트 사용 </td>
+                        <td> 결과 없음 </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>20</td>
+                        <td> <xmp> <ul><li>아이템</li></ul> </xmp> </td>
+                        <td> 순서 없는 목록 </td>
+                        <td align ="left"> <ul><li>갓댕이</li><li>갓냥이</li></ul> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>21</td>
+                            <td> <xmp> <ol><li>아이템</li></ol> </xmp> </td>
+                        <td> 순서 있는 목록 </td>
+                        <td align ="left"> <ol><li>강아지</li><li>고양이</li></ol> </td>
+                    </tr> 
+                </table>
+            </div>
+            <br style="margin:5%">
+        </div>
+    </body>
+    
+</html>
+        
+                    

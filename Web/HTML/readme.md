@@ -10,8 +10,8 @@ HTML 기초에 대해 정리한 곳입니다.
 
 * [02.기본태그](https://github.com/16Hongc/TIL/tree/master/Web/HTML/02.기본태그 "HTML Basic Tag")
 * [03.구조](https://github.com/16Hongc/TIL/tree/master/Web/HTML/03.구조 "HTML Structure")
-* [04.]
-* [05.]
+* [04.설계](https://github.com/16Hongc/TIL/tree/master/Web/HTML/04.설계 "HTML Basic Design")
+* [05.웹](https://github.com/16Hongc/TIL/tree/master/Web/HTML/05.웹 "Web")
 * [06.]
 * [07.]
 * [08.]

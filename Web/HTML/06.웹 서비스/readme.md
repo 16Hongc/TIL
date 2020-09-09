@@ -33,6 +33,7 @@
 
 
 2. 바이너리 패키지 설치
+
     : Bitnami WAMP Stack : **W**indows + **A**pache + **M**ySQL(DBMS) + **P**HP(Middle Ware) 통합 설치.
 		![image-20200910072124308](images/image-20200910072124308.png)
 
@@ -42,6 +43,7 @@
 4. 설치 종료 및 실행.
 
     : Bitnami WAMP Stack Manager Tool.
+    
 	<img src="images/image-20200910082809247.png" alt="image-20200910082809247" style="zoom: 67%;" />
 	
 5. 정상 구동 확인.

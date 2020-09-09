@@ -40,10 +40,12 @@
 3. 방화벽 관련 사항은 Acess 허용.
 
 4. 설치 종료 및 실행.
+
     : Bitnami WAMP Stack Manager Tool.
 	<img src="images/image-20200910082809247.png" alt="image-20200910082809247" style="zoom: 67%;" />
 	
 5. 정상 구동 확인.
+
 	<img src="images/image-20200910083419056.png" alt="image-20200910083419056" style="zoom: 67%;" />
 	
 	

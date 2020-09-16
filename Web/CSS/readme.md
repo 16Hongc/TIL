@@ -22,9 +22,9 @@
 
 ## 목차
 
-1. [CSS_기본](https://github.com/16Hongc/TIL/blob/master/Web/CSS/01.CSS_기본.md)
-2. [CSS 적용](https://github.com/16Hongc/TIL/blob/master/Web/CSS/01.CSS_적용.md)
-3. []()
+1. [CSS 기본](https://github.com/16Hongc/TIL/blob/master/Web/CSS/01.CSS_기본.md)
+2. [CSS 적용](https://github.com/16Hongc/TIL/blob/master/Web/CSS/03.CSS_디자인.md)
+3. [CSS 디자인](https://github.com/16Hongc/TIL/blob/master/Web/CSS/01.CSS_적용.md)
 4. []()
 5. []()
 

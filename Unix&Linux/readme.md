@@ -10,5 +10,5 @@
 
 ## 목차
 
-* [01. Unix & Linux 개요](https://github.com/16Hongc/TIL/blob/master/Unix&Linux/Files/01.Unix&Linux_기본.md)
+* [01. Unix & Linux 개요](https://github.com/16Hongc/TIL/blob/master/Unix&Linux/Files/01.Unix&Linux_개요.md)
 
